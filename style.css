@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&family=Orbitron&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Satisfy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=IBM+Plex+Mono:ital,wght@1,300&family=Nothing+You+Could+Do&display=swap");
+* {
+  margin: 0;
+}
+body {
+  background-image: url("background.png");
+  background-size: cover;
+  position: relative;
+  /* font-family: "Inter"; */
+}
+
+.container {
+  margin: 64px 200px 64px 500px;
+}
+
+.main-heading h1 {
+  text-align: center;
+  font-size: 70px;
+  color: rgba(255, 255, 255, 0.753);
+  margin-bottom: 120px;
+  font-family:'Orbitron';
+}
+.content{
+  margin-bottom:72px;
+}
+
+.content p {
+  font-size: 18px;
+  color: rgba(255, 249, 255, 0.733);
+  text-align: right;
+  margin-bottom:24px;
+  font-family: 'Handlee';
+}
+.content h5 {
+  font-family:'Satisfy';
+  text-align: right;
+  font-size: 20px;
+  color: hsla(0, 0%, 100%, 0.699)
+
+}
